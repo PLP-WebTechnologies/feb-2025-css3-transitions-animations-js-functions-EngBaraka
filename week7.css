@@ -1,0 +1,36 @@
+/* Button Styles */
+.animate-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.animate-btn:hover {
+    background-color: lightcoral;
+}
+
+/* Keyframes for Animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Add animation when triggered */
+.animated {
+    animation: bounce 1s ease-in-out;
+}
+
+/* Styles for the container and checkbox */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
